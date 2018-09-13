@@ -1,0 +1,80 @@
+$primary-color: #008ed6;
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #333;
+    color: #fff;
+
+    .navbar {
+        border-bottom: $primary-color 3px solid;
+        opacity: 0.8;
+    }
+
+    strong {
+        font-weight: 700;
+    }
+
+    .home-section {
+        background: url(../img/home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 700px;
+
+        .fas {
+            color: $primary-color;
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .dark-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-height: 700px;
+            background: rgba(0, 0, 0, 0.7);
+
+            .home-inner {
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                .card-form {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+
+    .explore-section {
+        .fas {
+            color: $primary-color;
+            background-color: #333;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+
+    .create-section {
+        background-color: #333;
+
+        .fas {
+            color: $primary-color;
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+
+    .share-section {
+        .fas {
+            color: $primary-color;
+            background-color: #333;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+}
