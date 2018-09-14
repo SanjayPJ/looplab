@@ -39,7 +39,7 @@ body .home-section .dark-overlay {
 
 body .home-section .dark-overlay .home-inner {
   position: absolute;
-  top: 45%;
+  top: 55%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
